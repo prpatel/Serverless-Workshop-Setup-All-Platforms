@@ -5,9 +5,9 @@ Prereq's:
 
 This exercise will set up your local development environment to use the open-source Apache OpenWhisk project, or a free hosted instance of Apache OpenWhisk on IBM Cloud Functions. These steps are a prerequisite before you can start building serverless applications for our lab. 
 
-** We suggest you do the hosted option (IBM Cloud Functions) as it will be easier and you will be able to do web invocations also **
+## **We suggest you do the hosted option (IBM Cloud Functions) as it will be easier and you will be able to do web invocations also**
 
-* You only need to do ONE of these setup options *
+## *You only need to do ONE of these setup options*
 
 # Option 1: Hosted Apache OpenWhisk (IBM Cloud Functions)
 *Once you have completed this exercise, you will have…*
@@ -32,7 +32,7 @@ Once this exercise is finished, we can start to develop serverless applications 
 
 1. Open a browser window 
 
-2. Navigate to [https://console.bluemix.net/registration/](https://ibm.biz/BdZf65)
+2. Navigate to [https://console.bluemix.net/registration/](https://ibm.biz/Bd2B4y)
 
    ![Registration page](images/registration.png)
 
@@ -56,13 +56,15 @@ Developers using "*Lite accounts*" are restricted to development within a single
 
 Follow these instructions to check which default region your lite account has been assigned.
 
-1. Open the [IBM Cloud homepage](https://console.bluemix.net/).
+1. Open the [IBM Cloud Functions homepage](https://console.bluemix.net/openwhisk/).
 2. Click the *"Manage"* menu from the page header.
 3. Click the *"[Account > Cloud Foundry Orgs](https://console.bluemix.net/account/organizations)"* option from the drop-down menu.
+![Region Check Step 2](images/regioncheck2.png)
 4. From the [Cloud Foundry Organisations](https://console.bluemix.net/account/organizations) page, click the organisation name listed in the table.
+![Region Check Step 2](images/regioncheck3.png)
 5. Check the "*Region*" value listed in the organisation details table.
+![Region Check Step 2](images/regioncheck4.png)
 
-![Registration page](images/default_region.png)
 
 *Accounts which have been upgraded to "Pay-As-You-Go" or "Subscription" can choose any available region for IBM Cloud Functions.*
 
@@ -176,4 +178,5 @@ Follow these instructions to check which default region your lite account has be
 
 # Option 2: Running OpenWhisk locally
 We recommend this excellent guide for getting OpenWhisk setup locally. It will take a while to setup, download and validate. Please be sure you are able to setup and deploy a test Cloud Function locally; setting up the IBM Cloud Functions as described in the previous section should take 5 minutes.
+
 [Setup Apache OpenWhisk locally](http://jamesthom.as/blog/2018/01/19/starting-openwhisk-in-sixty-seconds/)
