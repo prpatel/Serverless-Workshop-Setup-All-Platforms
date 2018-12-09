@@ -1,6 +1,7 @@
-# Repo for Serverless JavaScript workshop setup
+# Repo for Serverless workshop setup
 
 Prereq's:
+## For JavaScript workshops, please do this also:
 * Make sure to have node 8+ installed
 
 This exercise will set up your local development environment to use the open-source Apache OpenWhisk project, or a free hosted instance of Apache OpenWhisk on IBM Cloud Functions. These steps are a prerequisite before you can start building serverless applications for our lab. 
