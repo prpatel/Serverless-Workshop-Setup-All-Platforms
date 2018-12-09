@@ -10,7 +10,7 @@ This exercise will set up your local development environment to use the open-sou
 
 ## *You only need to do ONE of these setup options*
 
-# Option 1: Hosted Apache OpenWhisk (IBM Cloud Functions)
+# Option 1 (recommended): Hosted Apache OpenWhisk (IBM Cloud Functions)
 *Once you have completed this exercise, you will have…*
 - **Registered an IBM Cloud account.**
 - **Installed and configured IBM Cloud CLI tools.**
@@ -181,3 +181,7 @@ Follow these instructions to check which default region your lite account has be
 We recommend this excellent guide for getting OpenWhisk setup locally. It will take a while to setup, download and validate. Please be sure you are able to setup and deploy a test Cloud Function locally; setting up the IBM Cloud Functions as described in the previous section should take 5 minutes.
 
 [Setup Apache OpenWhisk locally](http://jamesthom.as/blog/2018/01/19/starting-openwhisk-in-sixty-seconds/)
+
+*note: you may need to invoke openwhisk in insecure mode when running locally*
+You can do this by passing the "-i" flag like so:
+wsk -i action create hello hello.js
