@@ -36,7 +36,7 @@ Once this exercise is finished, we can start to develop serverless applications 
 
 1. Open a browser window 
 
-2. Navigate to [https://console.bluemix.net/registration/](https://ibm.biz/Bd2B4y)
+2. Navigate to [https://ibm.biz/Bdzd2d](https://ibm.biz/Bdzd2d)
 
    ![Registration page](images/registration.png)
 
