@@ -36,7 +36,7 @@ Once this exercise is finished, we can start to develop serverless applications 
 
 1. Open a browser window 
 
-2. Navigate to [https://ibm.biz/Bdzd2d](https://ibm.biz/Bdzd2d)
+2. KCDC Attendees Navigate to [https://ibm.biz/Bd2wJD](https://ibm.biz/Bd2wJD) 
 
    ![Registration page](images/registration.png)
 
